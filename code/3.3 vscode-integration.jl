@@ -62,14 +62,14 @@ let # https://lazarusa.github.io/BeautifulMakie/surfWireLines/
 end
 
 # Progress bars:
-using ProgressLogging # https://github.com/JuliaLogging/ProgressLogging.jl
+#using ProgressLogging # https://github.com/JuliaLogging/ProgressLogging.jl
 
-@progress for i in 1:10
-    sleep(0.5)
-    println("step $i")
-end
+#@progress for i in 1:10
+ #   sleep(0.5)
+  #  println("step $i")
+#end
 
-@progress "my custom for loop" for i in 1:10
-    sleep(0.5)
-    println("step $i")
-end
+#@progress "my custom for loop" for i in 1:10
+ #   sleep(0.5)
+  #  println("step $i")
+#end
